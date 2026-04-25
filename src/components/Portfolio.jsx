@@ -3,6 +3,7 @@ import project2 from '../assets/teamsync.png';
 import project3 from '../assets/talkative.png';
 import project4 from '../assets/AgentHelix.png';
 import project5 from '../assets/ServiceSync.png';
+import project6 from '../assets/Nexus Ai.png';
 import { useRef } from 'react';
 import { motion, useScroll } from "framer-motion";
 import { ArrowUpRight, FolderGit2 } from "lucide-react"; 
@@ -159,6 +160,19 @@ const projects = [
         live: "https://github.com/prakhar0085/AgentHelix" 
     },
   },
+
+   {
+    title: "N.E.X.U.S. Voice-Integrated Agentic AI",
+    isSaaS: true,
+    image: project6,
+    description: "A real-time, Tony Stark-inspired AI assistant utilizing a modular MCP-server architecture and LiveKit voice pipelines to orchestrate web intelligence, system diagnostics, and automated workflows.",
+    tags: ["Python", "FastMCP", "LiveKit", "Gemini 2.5", "SSE", "FastAPI"],
+    links: { 
+        github: "https://github.com/prakhar0085/Nexus-Ai", 
+        live: "https://github.com/prakhar0085/Nexus-Ai" 
+    },
+  },
+  
 
    {
     title: "ServiceSync – Industrial Service Orchestration Ecosystem",
